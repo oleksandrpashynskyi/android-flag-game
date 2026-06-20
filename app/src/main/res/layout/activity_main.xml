@@ -1,0 +1,119 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which flag is?"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_marginBottom="16dp">
+
+        <!-- Add 12 ImageView elements -->
+        <ImageView
+            android:id="@+id/flag1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/flag12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:scaleType="fitCenter" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number Right: 0\nNumber Wrong: 0"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
